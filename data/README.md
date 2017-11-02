@@ -1,7 +1,7 @@
 # `data` folder 
 Here is where you store your data. You can create some subdirectories to organize your data like for example. 
 
-```
+```R
 /original
 /processed
 /"whatever you want"
