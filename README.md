@@ -1,6 +1,6 @@
 # Templates for R Projects
 
-This is my template my R projects 
+This is my template my R projects 🇺🇸
 
 ```
 code ----> where the code script are store
