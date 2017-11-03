@@ -1,23 +1,35 @@
-# Templates for R Projects
+# Template for R Projects
 
-This is my template my R projects 🇺🇸
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
-```
-code ----> where the code script are store
-data ----> where the original data is store
-doc -----> documentation of the project
-figs ----> figures and graphs that one can create in the project
-notes ---> to store the notes ## I don't know if this is necessary
-output --> other outputs
-R -------> scripts with functions for the project
-var -----> processed data or storage of data at intermediate states
+This is an small outline of the template.  
 
-```
-\* this is a suggestion and could change
+| Folder | Function |
+|--------|-------------|
+| [code](/code) | Stores your code scripts. 
+| [data](/data) | Stores raw or original data. 
+| [doc](/doc) | Documents generated during the project. 
+| [figs](/figs) | Figures and graphs, or other kind of images. 
+| [notes](/notes) | Notes or diary documents. 
+| [output](output) | Other outputs, like CSVs to share data. 
+| [R](/R) | Scripts with functions created for this project. 
+| [var](/var) | Stores your processed of intermediate data or variables. 
 
-## Getting Started
+## Inspiration
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I've been inspired to create this template after I've read the following posts in the blog [Nice R Coding](https://richfitz.github.io/) of [@richfitz](https://github.com/richfitz)
+
+* [Why I want to write nice R code](https://nicercode.github.io/blog/2013-04-05-why-nice-code/)
+* [Designing projects](https://nicercode.github.io/blog/2013-04-05-projects/)
+* [Organizing the project directory](https://nicercode.github.io/blog/2013-05-17-organising-my-project/)
+
+I know about the [ProjectTemplate](http://projecttemplate.net/) and I think it's really impressive how complex a R project can be and how detailed that template is. However, I find it too complicated for my needs and for a lot of people starting in R or don't do that complicated project everyday. 
+
+This template tries to be an intermediate template for people that doesn't need to automate that much when they are scripting in R, but they would like to have some kind of template to help them every time they create a new project and keep common structure in all their projects.
+
+## Contributing, cloning or forking this template
+
+Please fell free to comment or even contribute to this project in anyway you want to this template, this is just a beginning and I want to make as useful as possible to anyone. 
 
 ### Prerequisites
 
@@ -81,7 +93,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Creative Commons  - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
