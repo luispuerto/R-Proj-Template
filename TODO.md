@@ -10,6 +10,7 @@ This is the document that states the pending tasks for this project. You can ass
 - [ ] Create a script for bash so I can: 
     - "Install" the template… figure out where the template is and install the script. 
     - Copy the template structure to the current folder, which it's going to be a R Studio project. 
+    - I just create a small script to copy it, but I would like to have something more refined. 
 
 
 
