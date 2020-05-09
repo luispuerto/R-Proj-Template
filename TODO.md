@@ -7,6 +7,15 @@ This is the document that states the pending tasks for this project. You can ass
 - [ ] Update the R install from the [README][]
 - [ ] Find out from where I got the initial templates and put in the acknowledgments. 
 - [ ] Check that the license templates are current and work fine with GitHub. 
+- [ ] Create a script for bash so I can: 
+    - "Install" the template… figure out where the template is and install the script. 
+    - Copy the template structure to the current folder, which it's going to be a R Studio project. 
+
+
+
+
+
+
 
 [README]: README.md#prerequisites
 [Issues]: https://github.com/luispuerto/R-Proj-Template/issues
