@@ -6,7 +6,7 @@ The idea is you can store here your research notes about whatever you want or yo
 
 The suggested filename for your journal entries could be `YYYY-MM-DD-Entry-Title.Rmd` taking inspiration of the [Jelkyll posts][JelkyllPosts] file naming, but, of course, you can use whatever works for you best. If you are working in the project with more people, perhaps it has sense to create a folder for each person you are working with, or just create a join entry with different sections where coworkers explain what they been working in different sections. 
 
-As a header of the journal —or yaml from matter— you can use this as a template: 
+As a header of the journal —or yaml from matter— you can use this as a template: 
 
 ```yaml 
 ---
@@ -45,13 +45,13 @@ On this readme you can also explain a little bit about the purpose of the differ
 
 _These are my research notes on the project this and that, they are mainly about this and that. There is also a couple of reports I've done for this and that._
 
-## Notes / folder 1 
+## Notes / folder 1
 
 - They are about this. 
 - Using this data
 - I have this ideas 
 
-## Notes / folder 2  
+## Notes / folder 2
 
 - ... 
 

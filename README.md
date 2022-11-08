@@ -15,14 +15,14 @@
 - [Introduction](#introduction)
 - [How to use this template](#how-to-use-this-template)
 - [Contents description](#contents-description)
-    - [Files](#files)
-        - [README.md](#readmemd)
-        - [Licenses & licensing](#licenses--licensing)
-        - [TODO.md](#todomd)
-        - [CONTRIBUTING.md](#contributingmd)
-        - [.gitignore](#gitignore)
-        - [.gitkeep\(s\)](#gitkeeps)
-    - [Folders](#folders)
+        - [Files](#files)
+                - [README.md](#readmemd)
+                - [Licenses & licensing](#licenses--licensing)
+                - [TODO.md](#todomd)
+                - [CONTRIBUTING.md](#contributingmd)
+                - [.gitignore](#gitignore)
+                - [.gitkeep\(s\)](#gitkeeps)
+        - [Folders](#folders)
 - [Script template headers](#script-template-headers)
 - [Prerequisites & recommendations](#prerequisites--recommendations)
 - [Contributing, cloning or forking this template](#contributing-cloning-or-forking-this-template)
@@ -30,12 +30,12 @@
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-    - [ProjectTemplate](#projecttemplate)
+        - [ProjectTemplate](#projecttemplate)
 
 <!-- /MarkdownTOC -->
 
 
-## Introduction 
+## Introduction
 
 This pretends to be a template for projects carried out mainly in R language and mainly over RStudio, but that IDE isn't necessary and of course you can use other languages like Python and C++. 
 
@@ -51,7 +51,7 @@ You can clone, fork or directly download this project to use it. If you want to 
 $ git clone https://github.com/luispuerto/R-Proj-Template.git
 ```
 
-Once you have the files you can **copy** the `/Template` folder elsewhere —in your working folder, like `Coding` or `MyRepos` or whatever you use to store your R projects— and rename it for your project. You can then begin to customize the template to your and/or your project's needs. 
+Once you have the files you can **copy** the `/Template` folder elsewhere —in your working folder, like `Coding` or `MyRepos` or whatever you use to store your R projects— and rename it for your project. You can then begin to customize the template to your and/or your project's needs. 
 
 These are the suggested next steps: 
 
@@ -80,9 +80,9 @@ As you can see there are series of badges on the top of the readme template. The
 
 Licensing your project isn't that important is you are working stand-alone, or in _safe context_ —whatever that means to you. But in the moment you share your code with others and other start to make contributions, things start to get complicated. For that reason, it's better state from the very beginning  what are _conditions_ of your software. Bear in mind that, while you are working _solo_ and without sharing your code, you have all the says, so you can easily change the license if you want. In the moment, your code is in the wild and someone make a contribution, they own that piece of code and they have a say if you want to change the license. 
 
-There are two files related to licenses, `LICENSE.md` and `LICENSE4CONTENT.md`. `LICENSE.md` is relate to the code and `LICENSE4CONTENT.md` is relate to the content that isn't code. The idea is that the code and the content of your project could —and perhaps should— have different licenses since they are sometimes different entities. Licenses like [GPL or MIT or so][OpenSourceLicense] aren't really suitable for media content, and licenses like [Creative Commons][CreativeCommonsLicense] aren't really suitable for code.  
+There are two files related to licenses, `LICENSE.md` and `LICENSE4CONTENT.md`. `LICENSE.md` is relate to the code and `LICENSE4CONTENT.md` is relate to the content that isn't code. The idea is that the code and the content of your project could —and perhaps should— have different licenses since they are sometimes different entities. Licenses like [GPL or MIT or so][OpenSourceLicense] aren't really suitable for media content, and licenses like [Creative Commons][CreativeCommonsLicense] aren't really suitable for code.  
 
-Please take into account that [IANAL][] and licensing R code sometimes is something **_controversial_**. I've seen long threads where the issue is discussed —even sometimes too passionately— to finally don't reach any clear conclusion. The problem lie in that R has a [`GPL-2-or-later` license][GPL-2-or-later] and it isn't clear if the scripts have to have the same license, since they need R to work and they aren't independent from it. 
+Please take into account that [IANAL][] and licensing R code sometimes is something **_controversial_**. I've seen long threads where the issue is discussed —even sometimes too passionately— to finally don't reach any clear conclusion. The problem lie in that R has a [`GPL-2-or-later` license][GPL-2-or-later] and it isn't clear if the scripts have to have the same license, since they need R to work and they aren't independent from it. 
 
 >If you are relying on packages, this likely means that you are relying on other R scripts which are going to be interpreted as well. Your program, by relying on these scripts is a derivative of them. Thus, you need to license your whole program (the packages you rely on + the part you wrote) under GPL as well. [(Source)][5]
 
@@ -134,7 +134,7 @@ These are [not standard git files][10] but they are around, so Git can keep trac
 $ find . -name '.gitkeep' -delete 
 ```
 
-### Folders 
+### Folders
 
 Inside of each of the folders there is a small `README.md` file that explain a little bit about the purpose of the folder and how to store the files in there. That same readme could serve to create a small description of the files you are going to put in there, so when someone opens the folder on their computer or in a Git server could know at glance what is in there and how it's store. 
 
@@ -186,7 +186,7 @@ Please feel free to comment or even contribute to this project in anyway you wan
 
 Please read [CONTRIBUTING.md][] for details on the code of conduct, and the process for submitting pull requests.
 
-## Versioning 
+## Versioning
 
 I use [SemVer][] for versioning. For the versions available, see the [tags on this repository][TagsOnThisRepository].
 
@@ -208,7 +208,7 @@ I've been inspired to create this template after I've read the following posts i
 * [Designing projects][13]
 * [Organizing the project directory][14]
 
-### ProjectTemplate 
+### ProjectTemplate
 
 I know about the [ProjectTemplate][] and I think it's really impressive how complex a R project can be and how detailed that template is. However, I find it too complicated for my needs and I think other people find it too, whether because they are starting in R or they don't do that complicated projects everyday. 
 

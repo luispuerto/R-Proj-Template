@@ -5,7 +5,7 @@ Easily copy and paste the code under the badges into your Markdown files.
 
 ## Notes
 - Badges are made with [Shields.io](http://shields.io/).  
-- This badges do not fully replace the license informations for your projects, they are only emblems for the README, that the user can see the License at first glance.  
+- This badges do not fully replace the license informations for your projects, they are only emblems for the README, that the user can see the License at first glance.  
 - [:fr: Cette liste en français](https://gist.github.com/Helmasaur/fb8ca2c08131c58341d443b43672a1f5)  
 - Github has a new autodetection of the LICENSE file, which shows up the license at the repo overview
 - Really nice: https://choosealicense.com/

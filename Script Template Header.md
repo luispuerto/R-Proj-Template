@@ -11,10 +11,10 @@ These are templates for the R scripts' headers. You can incorporate them to the 
 - [Long one](#long-one)
 - [Short one](#short-one)
 - [Snippets for RStudio](#snippets-for-rstudio)
-    - [Updating fields](#updating-fields)
-        - [Date & Update](#date--update)
-        - [System](#system)
-        - [RVersion](#rversion)
+        - [Updating fields](#updating-fields)
+                - [Date & Update](#date--update)
+                - [System](#system)
+                - [RVersion](#rversion)
 
 <!-- /MarkdownTOC -->
 
@@ -48,7 +48,7 @@ Some of the fields, like date or update, or even the authors and usernames  are 
 1. Sometimes scripts get stranded, they are copied, or moved, from their original working or project directories, so they lose the connection with the meta-data provided by the VCS.
 2. It helps to have an idea _at glance_ of what is the script about, who created it and so on. 
 
-## Long one
+## Long one
 
 ```r
 #!/usr/bin/env Rscript 
@@ -76,7 +76,7 @@ sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)
 # Script's Body ####
 ```
 
-## Short one
+## Short one
 
 ```r
 #!/usr/bin/env Rscript 
